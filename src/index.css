@@ -23,3 +23,50 @@ button{
   background-color: #f0c040;
   cursor: pointer;
 }
+
+.usestate{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.usestate div {
+  margin-left: 20px;
+}
+
+.useeffect{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.useeffect div {
+  margin-left: 20px;
+}
+
+.githubuser{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.githubuser li{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(233, 233, 233);
+  margin: 10px;
+}
+
+.githubuser img{
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.text {
+  line-height: 0%;
+  text-decoration: none;
+}
