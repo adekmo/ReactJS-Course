@@ -43,9 +43,9 @@ button{
 }
 
 .githubuser{
+  width: 1000px;
   display: flex;
-  flex-wrap: wrap;
-
+  flex-wrap: wrap-reverse;
 }
 
 .githubuser li{
