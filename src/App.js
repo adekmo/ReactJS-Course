@@ -1,5 +1,6 @@
 import React from 'react';
 import MultipleReturn from './conditional-rendering/MultipleReturn';
+import ShortCircuit from './conditional-rendering/ShortCircuit';
 import UseEffectBasic from './useEffect/UseEffectBasic';
 import UseEffectCleanUp from './useEffect/UseEffectCleanUp';
 import UseEffectFetch from './useEffect/UseEffectFetch';
@@ -47,8 +48,12 @@ function App() {
           <UseEffectFetch />
         </div>
         <div>
-          <h2>4. Conditional Rendering</h2>
+          <h2>4. Cond. Rendering | Multiple Return</h2>
           <MultipleReturn />
+        </div>
+        <div>
+          <h2>5. Cond. Rendering | Short Circuit</h2>
+          <ShortCircuit />
         </div>
       </div>
     </div>
