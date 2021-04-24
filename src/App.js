@@ -2,6 +2,7 @@ import React from 'react';
 import MultipleReturn from './conditional-rendering/MultipleReturn';
 import ShortCircuit from './conditional-rendering/ShortCircuit';
 import ShowHide from './conditional-rendering/ShowHide';
+import ControlInput from './forms/ControlInput';
 import UseEffectBasic from './useEffect/UseEffectBasic';
 import UseEffectCleanUp from './useEffect/UseEffectCleanUp';
 import UseEffectFetch from './useEffect/UseEffectFetch';
@@ -59,6 +60,10 @@ function App() {
         <div>
           <h2>6. Cond. Rendering | Show-Hide</h2>
           <ShowHide />
+        </div>
+        <div>
+          <h2>7. Forms | Controlled Input</h2>
+          <ControlInput />
         </div>
       </div>
     </div>
