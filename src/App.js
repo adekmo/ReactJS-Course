@@ -3,6 +3,7 @@ import MultipleReturn from './conditional-rendering/MultipleReturn';
 import ShortCircuit from './conditional-rendering/ShortCircuit';
 import ShowHide from './conditional-rendering/ShowHide';
 import ControlInput from './forms/ControlInput';
+import MultipleInput from './forms/MultipleInput';
 import UseEffectBasic from './useEffect/UseEffectBasic';
 import UseEffectCleanUp from './useEffect/UseEffectCleanUp';
 import UseEffectFetch from './useEffect/UseEffectFetch';
@@ -64,6 +65,10 @@ function App() {
         <div>
           <h2>7. Forms | Controlled Input</h2>
           <ControlInput />
+        </div>
+        <div>
+          <h2>8. Forms | Multiple Input</h2>
+          <MultipleInput />
         </div>
       </div>
     </div>
