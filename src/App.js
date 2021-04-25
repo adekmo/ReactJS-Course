@@ -7,6 +7,8 @@ import MultipleInput from './forms/MultipleInput';
 import UseEffectBasic from './useEffect/UseEffectBasic';
 import UseEffectCleanUp from './useEffect/UseEffectCleanUp';
 import UseEffectFetch from './useEffect/UseEffectFetch';
+import UseReducerSetUp from './useReducer/UseReducerSetUp';
+import Refactor from "./useReducer/Refactor";
 import UseRefBasic from './useRef/UseRefBasic';
 import UseStateArray from './useState/UseStateArray';
 import UseStateBasic from './useState/UseStateBasic';
@@ -74,6 +76,14 @@ function App() {
         <div>
           <h2>9. UseRef | UseRef Basic</h2>
           <UseRefBasic />
+        </div>
+        <div>
+          <h2>10. UseReducer</h2>
+          <UseReducerSetUp />
+        </div>
+        <div>
+          <h2>10. UseReducer | Refactor</h2>
+          <Refactor />
         </div>
       </div>
     </div>

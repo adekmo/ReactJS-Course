@@ -21,7 +21,6 @@ const UseRefBasic = () => {
                     <button type='submit'>submit</button>
                 </div>
             </form>
-            
         </div>
     )
 }
