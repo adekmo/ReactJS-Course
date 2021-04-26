@@ -14,6 +14,7 @@ import UseStateArray from './useState/UseStateArray';
 import UseStateBasic from './useState/UseStateBasic';
 import UseStateCounter from './useState/UseStateCounter';
 import UseStateObject from './useState/UseStateObject';
+import PopDrilling from './popDrilling/PopDrilling';
 
 function App() {
   
@@ -84,6 +85,10 @@ function App() {
         <div>
           <h2>10. UseReducer | Refactor</h2>
           <Refactor />
+        </div>
+        <div>
+          <h2>11. Pop Drilling</h2>
+          <PopDrilling />
         </div>
       </div>
     </div>
