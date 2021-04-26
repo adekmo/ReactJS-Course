@@ -1,9 +1,10 @@
 # My React Full Course
-my course about : 
-- React hooks
-- Custom hooks
-- React Context
-- React Router
+my course about :
+- form
+- useState
+- useEffect
+- useRef
+- useReducer
 
 
 # Getting Started with Create React App
