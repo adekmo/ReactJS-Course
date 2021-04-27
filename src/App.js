@@ -15,6 +15,7 @@ import UseStateBasic from './useState/UseStateBasic';
 import UseStateCounter from './useState/UseStateCounter';
 import UseStateObject from './useState/UseStateObject';
 import PopDrilling from './popDrilling/PopDrilling';
+import ContextApi from './useContext/ContextApi';
 
 function App() {
   
@@ -89,6 +90,10 @@ function App() {
         <div>
           <h2>11. Pop Drilling</h2>
           <PopDrilling />
+        </div>
+        <div>
+          <h2>12. UseContext | Context API</h2>
+          <ContextApi />
         </div>
       </div>
     </div>
